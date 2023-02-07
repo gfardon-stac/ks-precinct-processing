@@ -1,0 +1,23 @@
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# DS Store from mac
+.DS_Store
+
+# raw files
+/files
+/processed
