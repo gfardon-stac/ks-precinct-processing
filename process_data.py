@@ -1,5 +1,4 @@
 import csv
-import numpy as np
 import pandas as pd
 
 
@@ -50,7 +49,7 @@ def process_results (file,column_index):
     df.to_csv('processed/processed_'+file, index=False)
 
 
-process_results('johnson_hd.csv',3)
-process_results('sedgwick_hd.csv',1)
-process_results('shawnee_hd.csv',1)
-process_results('wyandotte_hd.csv',1)
+process_results('johnson.csv',3)
+process_results('sedgwick.csv',1)
+process_results('shawnee.csv',1)
+process_results('wyandotte.csv',1)
